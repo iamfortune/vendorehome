@@ -1,0 +1,45 @@
+html,
+body {
+    scroll-behavior: smooth;
+    padding: 0;
+    background: #fff;
+    cursor: pointer;
+    margin: auto 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+li {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    display: inline;
+    font-size: 1em;
+    transition: all 0.3s;
+    display: flex;
+}
+
+img {
+  background-image: url("/images/18.jpg");
+  background-color: #cccccc;
+  height: auto;
+  max-width: 100%;
+}
+
+.jumbotron {
+  position: absolute;
+}
+ .button {
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 5px; 
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    color: aliceblue;
+  }
+  
+  .button {
+    background-color: rgb(216, 22, 216);
+    border-color: rgb(216, 22, 216);
+  }
